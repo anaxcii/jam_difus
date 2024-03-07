@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jam Difus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button id="populateDatabaseBtn">Peupler la base de données</button>
+<div id="content">
+    <form id="filterForm">
+        <label for="filterName">Nom:</label>
+        <input type="text" id="filterName" name="filterName">
+        <label for="filterPrice">Prix max:</label>
+        <input type="number" id="filterPrice" name="filterPrice">
+        <button type="submit">Filtrer</button>
+    </form>
+    <ul id="itemList">
+        <!-- Les éléments seront chargés ici dynamiquement via AJAX -->
+    </ul>
+    <div id="popup" style="display: none;"></div>
+</div>
+
+<script src="js/populate_database.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/delete.js"></script>
+<script src="js/filter.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+N'oubliez pas de modifier les identifiants de connexion à MySQL dans la fonction connectDB en fonction de votre configuration.
+
+Amélioration possible à apporter
+-> Permettre de visualiser les détails et de supprimer lors du filtrage (Pour le moment il faut rafraichir).
+-> Bouton pour supprimer les filtres
+-> UI/UX (Utilisation de Bootstrap possible notamment pour le responsive)
+-> Mettre le symbole Euros pour les prix
+-> La fonction connectDB intègre une logique de création de base de données si elle n'existe pas, ce qui n'est pas nécessaire dans une application réelle
+-> Rendre le code plus propre
+-> Commenter plus mon code
+-> Optimiser mon code
+
+Perso
+-> Peut-être qu'une meilleure organisation des fichiers serait bénéfique. J'ai perdu l'habitude de travailler de cette façon à cause des frameworks.
+-> J'ai essayé d'utiliser phpQuery pour le templating, j'espère que c'est ce qui était attendu car je ne l'ai jamais utilisé auparavant. Je vais donc approfondir ma veille technologique
+-> Je dois revoir AJAX et jQuery, car cela remonte à une époque lointaine de mon parcours scolaire.
+-> Hâte de progresser et de devenir un meilleur codeur, apprendre comme je viens de le faire pour cet exercice, afin de mieux comprendre certains principes
+
+L'exercice m'a prit en tout 8/9h
+
+N'hésitez pas à me faire part de tout problème rencontré pour faire fonctionner l'application ou de suggestions d'amélioration. Je prends chaque critique comme une opportunité de m'améliorer.
+Merci pour cet exercice qui m'a permis d'apprendre et qui m'a motivé à coder d'une autre façon.
