@@ -623,7 +623,7 @@ class phpQueryObject
 			return in_array(
 				// strip leading dot from class name
 				substr($class, 1),
-				// get classes for element as array
+				// get class for element as array
 				explode(' ', $node->getAttribute('class') )
 			);
 		}
@@ -864,7 +864,7 @@ class phpQueryObject
 		return $this->newInstance();
 	}
 	/**
-	 * @todo create API for classes with pseudoselectors
+	 * @todo create API for class with pseudoselectors
 	 * @access private
 	 */
 	protected function pseudoClasses($class) {

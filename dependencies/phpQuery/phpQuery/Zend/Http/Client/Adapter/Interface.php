@@ -22,9 +22,9 @@
  */
 
 /**
- * An interface description for Zend_Http_Client_Adapter classes.
+ * An interface description for Zend_Http_Client_Adapter class.
  *
- * These classes are used as connectors for Zend_Http_Client, performing the
+ * These class are used as connectors for Zend_Http_Client, performing the
  * tasks of connecting, writing, reading and closing connection to the server.
  *
  * @category   Zend

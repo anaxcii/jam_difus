@@ -8,7 +8,7 @@
  * pq('ul')->plugin('example')
  * pq('ul')->plugin('example', 'example.php')
  *
- * Plugin classes are never intialized, just method calls are forwarded
+ * Plugin class are never intialized, just method calls are forwarded
  * in static way from phpQuery.
  *
  * Have fun writing plugins :)

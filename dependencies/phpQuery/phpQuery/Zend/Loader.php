@@ -20,7 +20,7 @@
  */
 
 /**
- * Static methods for loading classes and files.
+ * Static methods for loading class and files.
  *
  * @category   Zend
  * @package    Zend_Loader

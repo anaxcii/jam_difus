@@ -383,7 +383,7 @@ class Zend_Json_Encoder
 
     /**
      * Encodes the given $className into the class2 model of encoding PHP
-     * classes into JavaScript class2 classes.
+     * class into JavaScript class2 class.
      * NOTE: Currently only public methods and variables are proxied onto
      * the client machine
      *
@@ -409,9 +409,9 @@ class Zend_Json_Encoder
 
 
     /**
-     * Encode several classes at once
+     * Encode several class at once
      *
-     * Returns JSON encoded classes, using {@link encodeClass()}.
+     * Returns JSON encoded class, using {@link encodeClass()}.
      *
      * @param array $classNames
      * @param string $package
